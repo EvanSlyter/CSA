@@ -1,0 +1,7 @@
+First, str1 becomes the same as str2. They reference the same object. Because they are referencing the same object, the first statement prints.
+
+The second statement does not print because str2 and str3 do not reference the same object even though both objects contain "Karel".
+
+The third statement prints because str2 and str3 both contain the same thing, "Karel".
+
+The fourth statement does not print because str2 and str3 are not referencing the same object.
