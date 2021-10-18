@@ -12,7 +12,7 @@ public class ExtractDigits
         String lengthString=String.valueOf(num);
         int length=lengthString.length();
         int i=length;
-        while(i!=0){
+        
         for(i=length; i!=0; i--){
             String number=lengthString.substring(i-1,i);
             Integer.valueOf(number);
@@ -22,7 +22,7 @@ public class ExtractDigits
         
        
         
-        } 
+        
         }
         
     }
