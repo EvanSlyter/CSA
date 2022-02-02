@@ -41,9 +41,5 @@ public class DiverScores
             
         }
        System.out.println("The winner is DIVER#"+bestDiver+"!");
-        }
-        
-        
-        
-        
+        }    
     }
