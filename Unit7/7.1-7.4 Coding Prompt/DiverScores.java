@@ -23,7 +23,7 @@ public class DiverScores
                 Double num=input.nextDouble();
                 scores.add(num); 
             }
-            for (int i=0;i<1;i++){
+            
                 System.out.println("What was the dive difficulty?");
                 Double difficulty=input.nextDouble();
                 Collections.sort(scores);
@@ -36,10 +36,13 @@ public class DiverScores
                 if(finalScore>biggestScore){
                     biggestScore=finalScore; 
                     bestDiver=k;
-                }
             }
             
         }
        System.out.println("The winner is DIVER#"+bestDiver+"!");
-        }    
+        }
+        
+        
+        
+        
     }
